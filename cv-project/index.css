@@ -1,0 +1,101 @@
+:root {
+  --main_bg: #fcedda;
+  --main_text: #b98846;
+  --main_button: #33cbb6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: black;
+}
+.head {
+  display: grid;
+  place-items: center;
+  background-color: var(--main_bg);
+  font-weight: 700;
+  grid-gap: 10px;
+}
+.head .image {
+  margin-top: 30px;
+}
+.head .occupation {
+  color: var(--main_text);
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.head .name {
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+.head .contact {
+  background-color: var(--main_button);
+  color: white;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+}
+.body {
+  padding: 10px;
+}
+.about_me {
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 10px;
+}
+.header {
+  font-size: 24px;
+  line-height: 41px;
+  font-weight: 700;
+}
+.sub-header {
+  color: var(--main_text);
+  font-weight: 700;
+}
+.date {
+  font-weight: 500;
+}
+.separation_box {
+  width: 100px;
+  height: 10px;
+  background-color: var(--main_button);
+  margin: 30px 0px;
+}
+.experience,
+.experience .content,
+.experience .job,
+.education,
+.skillset,
+.skillset .skills,
+.Awards,
+.awards,
+.Careers,
+.careers,
+.recent_works,
+.works {
+  display: grid;
+  grid-gap: 10px;
+}
+.others {
+  margin-top: 30px;
+}
+.bold {
+  font-weight: 700;
+}
+.work {
+  color: var(--main_button);
+  font-weight: 600;
+}
+.foot {
+  background-color: var(--main_bg);
+}
