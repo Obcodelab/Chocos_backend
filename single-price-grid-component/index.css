@@ -62,9 +62,11 @@ span {
   opacity: 80%;
 }
 .signup {
+  display: grid;
   background-color: var(--lemon);
+  width: 30%;
   border-radius: 3px;
-  text-align: center;
+  place-items: center;
   padding: 10px 0px;
   margin-top: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
@@ -77,6 +79,12 @@ span {
   .wrapper {
     display: grid;
     grid-template-rows: auto, auto;
+    margin: 4% 4%;
+  }
+  .top,
+  .bottom,
+  .middle {
+    padding: 50px;
   }
   .lower {
     display: grid;
