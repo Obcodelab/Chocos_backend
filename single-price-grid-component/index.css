@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --dark: #2ab2ae;
+  --light: #86d0d0;
+  --lemon: #bfdf34;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: #e6eff6;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+}
+.wrapper {
+  margin: 10% 5%;
+}
+.top,
+.middle,
+.bottom {
+  padding: 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+.top {
+  background-color: white;
+}
+.middle {
+  background-color: var(--dark);
+}
+.bottom {
+  background-color: var(--light);
+}
+.header {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.top .header {
+  color: var(--dark);
+}
+.top .duration {
+  color: var(--lemon);
+}
+.top .text {
+  color: #98a6bd;
+}
+.middle .price {
+  font-size: 24px;
+  line-height: 38px;
+}
+span {
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 80%;
+}
+.signup {
+  background-color: var(--lemon);
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  font-weight: 700;
+}
+.reasons {
+  opacity: 80%;
+}
