@@ -18,10 +18,13 @@
   color: black;
 }
 .head {
-  display: grid;
-  place-items: center;
   background-color: var(--main_bg);
   font-weight: 700;
+}
+.head .left,
+.head .right {
+  display: grid;
+  place-items: center;
   grid-gap: 10px;
 }
 .head .image {
@@ -133,20 +136,4 @@
 }
 .fa-brands {
   font-size: 30px;
-}
-@media (min-width: 1280px) {
-  .head {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .body .right {
-    order: 1;
-  }
-  #remove {
-    display: none;
-  }
 }
