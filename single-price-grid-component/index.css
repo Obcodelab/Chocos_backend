@@ -73,3 +73,13 @@ span {
 .reasons {
   opacity: 80%;
 }
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    display: grid;
+    grid-template-rows: auto, auto;
+  }
+  .lower {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
